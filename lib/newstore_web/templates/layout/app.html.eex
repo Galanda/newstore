@@ -27,7 +27,7 @@
         </div>
         <!--NavBar part 2/3-->
         <div class="sq-navbar-domain sq-secondary sq-flex sq-force-2 sq-justify-around">
-          
+
           <div class="sq-flex sq-force-left" style="margin-left: 1em; font-weight: bold;"><a href="/" class="sq-text-white sq-secondary">Home!</a></div>
           <!-- SearchBar -->
           <div class=" sq-flex sq-justify-center sq-width-300em sq-form  sq-height-80p">
@@ -40,9 +40,7 @@
           <div class="sq-text-center">
             <button class="sq-button1 sq-height-80p" onclick="toggleModal('myModal')" style=" margin-right: 1em; margin-top: 0; background-color: var(--secondary-highlight)">Login/Register</button>
 
-
             <div class="sq-modal" id="myModal">
-
                 <div class="sq-modal-content" style="width: 20em; height: 12em;">
                   <header>
                     <span class="sq-close" onclick="toggleModal('myModal')">&times;</span>
