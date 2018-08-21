@@ -68,11 +68,12 @@
                     <!-- Modal start -->
                     <button onclick="openModal('<%= product.id %>')">Info</button>
                      <div id="<%= product.id %>" class="sq-modal">
-                        <div class="sq-modal-content"     
+                        <div class="sq-modal-content"
                             <span onclick="closeModal('<%= product.id %>')" class="iclose sq-close">&times;</span>
                             <div class="sq-flex">
                                 <img src="/images/user.png" alt="" class="sq-landing-card sq-air-r-10">
                                 <p> <%= product.name %> </p>
+                                <tag> <%= product.tags %></tag>
                             </div>
                             <div class="sq-flex">
                                 <p> <%= product.details %></p>
@@ -80,8 +81,8 @@
                             </div>
                         </div>
                     </div>
-                </div>  
-            </div>   
+                </div>
+            </div>
             <% end %>
         </div>
     </div>
@@ -92,7 +93,6 @@
     function openModal(targetId){
         var modal = document.getElementById(targetId);
         modal.style.display= "block";
-        console.log("moo")
     }
 
     // Close function
@@ -103,4 +103,7 @@
 
     // Button id that opens the modal start
     //Info
+
+    // sort function
+
 </script>
